@@ -11,9 +11,9 @@ const greatVibes = Great_Vibes({ subsets: ["latin"], weight: "400", variable: "-
 export const metadata: Metadata = {
   title: "Brendan & Airez - Wedding Invitation",
   description:
-    "You're invited to the wedding of Brendan & Airez! Join us on December 28, 2025 in Alta Guia, Taguig, Metro Manila. RSVP, read our love story, view our gallery, and leave a message for the couple.",
+    "You're invited to the wedding of Brendan & Airez! Join us on December 28, 2025 in SMDC Jazz Residence. RSVP, read our love story, view our gallery, and leave a message for the couple.",
   keywords:
-    "Brendan Airez wedding, Filipino wedding, RSVP, wedding gallery, wedding message wall, wedding invitation, 2025 weddings, love story, guestbook, wedding registry, wedding details, wedding venues Alta Guia, Taguig, Metro Manila, #BrendanAndAirezWedding",
+    "Brendan Airez wedding, Filipino wedding, RSVP, wedding gallery, wedding message wall, wedding invitation, 2025 weddings, love story, guestbook, wedding registry, wedding details, wedding venues SMDC Jazz Residence, #BrendanAndAirezWedding",
   authors: [
     { name: "Brendan" },
     { name: "Airez" },
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Brendan & Airez Wedding | December 28, 2025",
     description:
-      "Celebrate the union of Brendan & Airez on December 28, 2025 in Alta Guia, Taguig, Metro Manila. Discover our love story, RSVP, view the gallery, and leave your wishes!",
+      "Celebrate the union of Brendan & Airez on December 28, 2025 in SMDC Jazz Residence. Discover our love story, RSVP, view the gallery, and leave your wishes!",
     url: "https://Airez-and-Brendan-invitation.vercel.app/",
     siteName: "Airez and Brendan Wedding ",
     locale: "en_PH",
@@ -91,7 +91,7 @@ export const metadata: Metadata = {
     "application/ld+json": JSON.stringify({
       "@context": "https://schema.org",
       "@type": "Event",
-      name: "Talitha & Karol Wedding",
+      name: "Brendan & Airez Wedding",
       startDate: "2026-02-14T14:00:00+08:00",
       endDate: "2026-02-14T22:00:00+08:00",
       eventStatus: "https://schema.org/EventScheduled",
@@ -99,17 +99,20 @@ export const metadata: Metadata = {
       location: [
         {
           "@type": "Place",
-          name: "Alta Guia, Taguig, Metro Manila",
+          name: "SMDC Jazz Residence",
           address: {
             "@type": "PostalAddress",
-            addressLocality: "Taguig, Metro Manila",
+            streetAddress: "Nicanor Garcia, Tower B, 41st floor and unit 4112",
+            addressLocality: "Makati, Manila",
+            addressRegion: "Metro Manila",
+            postalCode: "1209",
             addressCountry: "PH",
           },
         },
       ],
       image: ["https://Airez-and-Brendan-invitation.vercel.app/desktop-background/couple (1).jpg"],
       description:
-        "You're invited to the wedding of Brendan & Airez! Join us on December 28, 2025 in Alta Guia, Taguig, Metro Manila. RSVP, read our love story, view our gallery, and leave a message for the couple.",
+        "You're invited to the wedding of Brendan & Airez! Join us on December 28, 2025 in SMDC Jazz Residence. RSVP, read our love story, view our gallery, and leave a message for the couple.",
       organizer: {
         "@type": "Person",
         name: "Brendan & Airez",

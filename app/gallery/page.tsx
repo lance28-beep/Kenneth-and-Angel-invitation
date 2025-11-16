@@ -59,11 +59,15 @@ export default async function GalleryPage() {
         {/* CTA Section */}
         <div className="mt-12 sm:mt-16 md:mt-20 text-center">
           <div className="bg-white/5 backdrop-blur-sm rounded-2xl p-6 sm:p-8 md:p-10 border border-[#C3A161]/30 max-w-2xl mx-auto">
+            <div className="inline-flex items-center justify-center gap-2 px-4 py-2 bg-[#C3A161]/20 border border-[#C3A161]/40 rounded-full text-[#C3A161] font-sans font-medium text-sm sm:text-base mb-6">
+              <span>📸</span>
+              <span>Upload Photo Coming Soon</span>
+            </div>
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-[#FFFFFF] mb-4">
               Share Your Moments
             </h2>
             <p className="text-[#FFFFFF]/90 font-sans font-light text-sm sm:text-base md:text-lg mb-6 leading-relaxed">
-              Use our wedding hashtags to share your photos and be featured in our gallery!
+              Be ready to share photos and they'll appear here! Use our wedding hashtags to share your photos and be featured in our gallery.
             </p>
             <div className="flex flex-wrap items-center justify-center gap-3 mb-6">
               <span className="px-4 py-2 bg-[#C3A161]/20 border border-[#C3A161]/40 rounded-full text-[#C3A161] font-sans font-medium text-sm sm:text-base">

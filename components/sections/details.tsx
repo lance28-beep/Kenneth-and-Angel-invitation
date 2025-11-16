@@ -26,7 +26,9 @@ export function Details() {
   }
 
   // Updated venue information
-  const venue = "Alta Guia, Taguig, Metro Manila"
+  const venueName = "SMDC Jazz Residence"
+  const venueAddress = "Nicanor Garcia, Tower B, 41st floor and unit 4112, Makati, Manila, Philippines, 1209"
+  const venue = `${venueName}, ${venueAddress}`
   const ceremonyMapsLink = `https://maps.google.com/?q=${encodeURIComponent(venue)}`
   const receptionMapsLink = ceremonyMapsLink
 
@@ -65,8 +67,8 @@ export function Details() {
           {/* Venue Image */}
           <div className="relative w-full h-44 sm:h-52 md:h-60 lg:h-64 xl:h-72 overflow-hidden">
             <Image
-              src="/Details/Alta Guia.png"
-              alt="Alta Guia, Taguig, Metro Manila"
+              src="/Details/JazzResidence.png"
+              alt="SMDC Jazz Residence"
               fill
               className="object-cover transition-transform duration-500 group-hover:scale-105"
               sizes="(max-width: 640px) 100vw, (max-width: 1024px) 90vw, 1024px"
@@ -77,10 +79,10 @@ export function Details() {
             {/* Venue name overlay */}
             <div className="absolute bottom-3 left-3 sm:bottom-4 sm:left-4 md:bottom-6 md:left-6 right-3 sm:right-4 md:right-6">
               <h3 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-white mb-0.5 sm:mb-1 drop-shadow-lg leading-tight">
-                Alta Guia
+                SMDC Jazz Residence
               </h3>
               <p className="text-xs sm:text-sm md:text-base text-white/90 drop-shadow-md">
-                Taguig, Metro Manila
+                Makati, Manila
               </p>
             </div>
           </div>
@@ -126,7 +128,8 @@ export function Details() {
               <MapPin className="w-4 h-4 sm:w-5 sm:h-5 md:w-6 md:h-6 text-[#751A2C] mt-0.5 flex-shrink-0" />
               <div className="min-w-0 flex-1">
                 <p className="text-xs sm:text-sm md:text-base font-semibold text-[#0A3428] mb-1">Location</p>
-                <p className="text-xs sm:text-sm md:text-base text-[#0A3428]/80 break-words">{venue}</p>
+                <p className="text-xs sm:text-sm md:text-base text-[#0A3428]/80 break-words">{venueName}</p>
+                <p className="text-xs sm:text-sm md:text-base text-[#0A3428]/80 break-words mt-1">{venueAddress}</p>
               </div>
             </div>
 

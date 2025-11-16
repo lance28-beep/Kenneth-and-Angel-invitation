@@ -18,12 +18,12 @@ const faqItems: FAQItem[] = [
   {
     question: "When and where is the ceremony?",
     answer:
-      "The ceremony is on December 28, 2025 at 11:00 AM at Alta Guia, Taguig, Metro Manila.",
+      "The ceremony is on December 28, 2025 at 11:00 AM at SMDC Jazz Residence.",
   },
   {
     question: "Where is the reception?",
     answer:
-      "The reception is at 12:00 NN at the same venue: Alta Guia, Taguig, Metro Manila.",
+      "The reception is at 12:00 NN at the same venue: SMDC Jazz Residence.",
   },
   {
     question: "When is the RSVP deadline?",

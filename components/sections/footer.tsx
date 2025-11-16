@@ -193,7 +193,7 @@ export function Footer() {
                 </div>
                 <div className="flex items-center gap-3 font-lora text-white/90">
                   <MapPin className="w-5 h-5 text-white/70" />
-                  <span>Alta Guia, Taguig, Metro Manila</span>
+                  <span>SMDC Jazz Residence</span>
                 </div>
               </div>
             </div>
@@ -223,7 +223,7 @@ export function Footer() {
               <div className="space-y-3 font-lora text-white/90 text-sm">
                 <div className="flex items-center gap-3">
                   <MapPin className="w-4 h-4 text-white/70" />
-                  <span>Alta Guia, Taguig, Metro Manila</span>
+                  <span>SMDC Jazz Residence</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Clock className="w-4 h-4 text-white/70" />
@@ -242,7 +242,7 @@ export function Footer() {
               <div className="space-y-3 font-lora text-white/90 text-sm">
                 <div className="flex items-center gap-3">
                   <MapPin className="w-4 h-4 text-white/70" />
-                  <span>Alta Guia, Taguig, Metro Manila</span>
+                  <span>SMDC Jazz Residence</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Clock className="w-4 h-4 text-white/70" />

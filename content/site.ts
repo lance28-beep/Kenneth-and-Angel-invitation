@@ -8,7 +8,7 @@ export const siteConfig = {
   wedding: {
     date: "December 28, 2025",
     time: "11:00 AM",
-    venue: "Alta Guia, Taguig, Metro Manila",
+    venue: "SMDC Jazz Residence",
     tagline: "are getting married!",
     theme: "Christmas Wedding 🎄",
     motif: "Burgundy Red & Emerald Green",
@@ -19,8 +19,8 @@ export const siteConfig = {
     },
   },
   ceremony: {
-    location: "Alta Guia, Taguig, Metro Manila",
-    venue: "Alta Guia",
+    location: "SMDC Jazz Residence",
+    venue: "SMDC Jazz Residence",
     date: "December 28, 2025",
     day: "Sunday",
     time: "11:00 AM",
@@ -28,8 +28,8 @@ export const siteConfig = {
     guestsTime: "10:30 AM",
   },
   reception: {
-    location: "Alta Guia, Taguig, Metro Manila",
-    venue: "Alta Guia",
+    location: "SMDC Jazz Residence",
+    venue: "SMDC Jazz Residence",
     date: "December 28, 2025",
     time: "12:00 NN",
   },

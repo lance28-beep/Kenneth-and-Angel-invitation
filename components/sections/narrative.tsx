@@ -130,11 +130,10 @@ export function Narrative() {
                 sendToBackOnClick={false}
                 cardDimensions={{ width: 280, height: 320 }}
                 cardsData={[
-                  { id: 1, img: "/LoveStory/story (5).png" },
-                  { id: 2, img: "/LoveStory/story (4).png" },
-                  { id: 3, img: "/LoveStory/story (3).png" },
-                  { id: 4, img: "/LoveStory/story (2).png" },
-                  { id: 5, img: "/LoveStory/story (1).png" },
+                  { id: 1, img: "/LoveStory/story (4).png" },
+                  { id: 2, img: "/LoveStory/story (3).png" },
+                  { id: 3, img: "/LoveStory/story (2).png" },
+                  { id: 4, img: "/LoveStory/story (1).png" },
                 ]}
                 animationConfig={{ stiffness: 260, damping: 20 }}
               />
