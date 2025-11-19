@@ -23,7 +23,7 @@ const faqItems: FAQItem[] = [
   {
     question: "When is the RSVP deadline?",
     answer:
-      "Please confirm by January 5, 2026. We have reserved seats for you, and we look forward to celebrating with you! Your response helps us finalize our guest list and seating arrangements.\n\n[RSVP_LINK]Click here to RSVP[/RSVP_LINK]",
+      "Please confirm by December 20, 2025. We have reserved seats for you, and we look forward to celebrating with you! Your response helps us finalize our guest list and seating arrangements.\n\n[RSVP_LINK]Click here to RSVP[/RSVP_LINK]",
   },
   {
     question: "Can I bring a plus one?",
@@ -48,7 +48,7 @@ const faqItems: FAQItem[] = [
   {
     question: "Do you have a gift registry?",
     answer:
-      "Your presence is the greatest gift! However, if you wish to honor us with a gift, we would gratefully accept monetary contributions as we prepare for our new journey together and upcoming migration.",
+      "Your presence is the greatest gift! However, if you wish to honor us with a gift, we would gratefully accept monetary contributions as we prepare for our new journey together and our migration to Canada.",
   },
   {
     question: "Is there parking available?",

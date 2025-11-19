@@ -73,11 +73,15 @@ export function Footer() {
 
   const nav = [
     { label: "Home", href: "#home" },
-    { label: "Our Story", href: "#story" },
-    { label: "Events", href: "#events" },
-    { label: "Gallery", href: "#gallery" },
-    { label: "Snap & Share", href: "#snap-share" },
+    { label: "Countdown", href: "#countdown" },
+    { label: "Messages", href: "#messages" },
+    { label: "Details", href: "#details" },
+    // { label: "Entourage", href: "#entourage" },
+    // { label: "Sponsors", href: "#sponsors" },
     { label: "RSVP", href: "#guest-list" },
+    { label: "Registry", href: "#registry" },
+    { label: "FAQ", href: "#faq" },
+    { label: "Snap & Share", href: "#snap-share" },
   ] as const;
 
   return (

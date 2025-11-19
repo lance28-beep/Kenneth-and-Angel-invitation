@@ -67,7 +67,7 @@ export function Registry() {
                 {/* Second message */}
                 <div className="relative">
                   <p className="text-base sm:text-lg md:text-xl font-[family-name:var(--font-crimson)] font-light text-[#1A1A1A]/80 leading-relaxed tracking-wide">
-                    However, if you wish to honor us with a gift, we would gratefully accept monetary contributions as we prepare for our new journey together and upcoming migration.
+                    However, if you wish to honor us with a gift, we would gratefully accept monetary contributions as we prepare for our new journey together and our migration to Canada.
                   </p>
 
                   {/* Decorative bottom line */}

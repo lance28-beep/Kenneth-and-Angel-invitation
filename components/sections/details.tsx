@@ -500,7 +500,7 @@ export function Details() {
               {/* No Gifts */}
               <div className="bg-gradient-to-br from-[#E8DCC8]/30 via-[#E8DCC8]/20 to-white rounded-xl p-5 sm:p-6 md:p-7 border border-[#1A1A1A]/20">
                 <p className="text-sm sm:text-base md:text-lg font-[family-name:var(--font-crimson)] text-[#1A1A1A] leading-relaxed">
-                  <span className="font-semibold">Gift Policy:</span> Your presence is the greatest gift! However, if you wish to honor us with a gift, we would gratefully accept monetary contributions as we prepare for our new journey together and upcoming migration.
+                  <span className="font-semibold">Gift Policy:</span> Your presence is the greatest gift! However, if you wish to honor us with a gift, we would gratefully accept monetary contributions as we prepare for our new journey together and our migration to Canada.
                 </p>
               </div>
 
