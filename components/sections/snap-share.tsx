@@ -291,7 +291,7 @@ export function SnapShare() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, delay: 0.4 }}
         >
-          <div className="relative group max-w-3xl mx-auto">
+          {/* <div className="relative group max-w-3xl mx-auto">
             <div className="absolute -inset-1 bg-gradient-to-br from-[#1A1A1A]/20 to-[#1A1A1A]/10 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-lg" />
 
             <div className="relative bg-white backdrop-blur-sm rounded-xl sm:rounded-2xl p-8 sm:p-10 md:p-12 border-2 border-[#1A1A1A]/40 shadow-xl hover:shadow-2xl transition-all duration-300 hover:border-[#1A1A1A]/60">
@@ -300,7 +300,7 @@ export function SnapShare() {
                 special day!
               </p>
 
-              {/* Decorative Line */}
+        
               <div className="flex items-center justify-center gap-3 sm:gap-4 my-6">
                 <div className="h-px w-12 sm:w-16 md:w-20 bg-[#1A1A1A]/50" />
                 <div className="w-1.5 h-1.5 bg-[#1A1A1A]/60 rounded-full" />
@@ -313,7 +313,7 @@ export function SnapShare() {
                 </span>
               </div>
             </div>
-          </div>
+          </div> */}
         </motion.div>
       </div>
     </Section>
