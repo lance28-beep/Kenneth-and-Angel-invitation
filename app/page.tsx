@@ -6,14 +6,15 @@ import { Hero } from "@/components/sections/hero"
 import { Countdown } from "@/components/sections/countdown"
 import { Messages } from "@/components/sections/messages"
 import { Details } from "@/components/sections/details"
-// import { Entourage } from "@/components/sections/entourage"
-// import { PrincipalSponsors } from "@/components/sections/principal-sponsors"
+import { Entourage } from "@/components/sections/entourage"
+import { PrincipalSponsors } from "@/components/sections/principal-sponsors"
 import { BookOfGuests } from "@/components/sections/book-of-guests"
 import { Registry } from "@/components/sections/registry"
 import { FAQ } from "@/components/sections/faq"
 import { SnapShare } from "@/components/sections/snap-share"
 import { Footer } from "@/components/sections/footer"
 import BackgroundMusic from "@/components/background-music"
+import { Gallery } from "@/components/sections/gallery"
 
 const Silk = dynamic(() => import("@/components/silk"), { ssr: false })
 const GuestList = dynamic(() => import("@/components/sections/guest-list").then(mod => ({ default: mod.GuestList })), { ssr: false })
@@ -39,8 +40,9 @@ export default function Home() {
         <Countdown />
         <Messages />
         <Details />
-        {/* <Entourage /> */}
-        {/* <PrincipalSponsors /> */}
+        <Gallery />
+        <Entourage />
+        <PrincipalSponsors />
         <GuestList />
         <BookOfGuests />
         <Registry />

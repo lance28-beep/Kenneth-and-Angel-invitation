@@ -6,11 +6,15 @@ import { Section } from "@/components/section"
 // Removed circular gallery in favor of a responsive masonry layout
 
 const galleryItems = [
-  { image: "/mobile-background/couple (3).jpg", text: " " },   
-  { image: "/mobile-background/couple (18).jpg", text: " " },
-  { image: "/mobile-background/couple (22).jpg", text: " " },
-
-
+  { image: "/mobile-background/couple (1).jpg", text: " " },
+  { image: "/mobile-background/couple (2).jpg", text: " " },
+  { image: "/mobile-background/couple (3).jpg", text: " " },
+  { image: "/mobile-background/couple (4).jpg", text: " " },
+  { image: "/mobile-background/couple (5).jpg", text: " " },
+  { image: "/mobile-background/couple (6).jpg", text: " " },
+  { image: "/mobile-background/couple (7).jpg", text: " " },
+  { image: "/mobile-background/couple (8).jpg", text: " " },
+  { image: "/mobile-background/couple (9).jpg", text: " " },
 ]
 
 export function Gallery() {
@@ -90,22 +94,18 @@ export function Gallery() {
   return (
     <Section
       id="gallery"
-      className="relative bg-gradient-to-b from-[#0A3428] via-[#106552]/90 to-[#0A3428] py-12 sm:py-16 md:py-20 lg:py-24 overflow-hidden"
+      className="relative py-16 sm:py-20 md:py-24 lg:py-28 bg-[#E8DCC8]/50 overflow-hidden"
     >
-      {/* Subtle background elements */}
-      <div className="absolute inset-0 pointer-events-none overflow-hidden">
-        {/* Soft gradient overlays */}
-        <div className="absolute top-0 left-0 w-full h-1/3 bg-gradient-to-b from-[#C3A161]/5 to-transparent" />
-        <div className="absolute bottom-0 left-0 w-full h-1/3 bg-gradient-to-t from-[#C3A161]/5 to-transparent" />
-      </div>
+      {/* Semi-transparent overlay for better text readability */}
+      <div className="absolute inset-0 bg-white/40 backdrop-blur-sm pointer-events-none" />
 
       {/* Header */}
-      <div className="relative z-10 text-center mb-10 sm:mb-12 md:mb-16 px-4">
-        <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-[#FFFFFF] mb-4 sm:mb-6 drop-shadow-md">
+      <div className="relative z-10 text-center mb-12 sm:mb-16 md:mb-20 px-4 sm:px-6">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-[family-name:var(--font-crimson)] font-normal text-[#1A1A1A] mb-6 sm:mb-8 uppercase tracking-[0.12em] sm:tracking-[0.15em] drop-shadow-sm">
           Our Moments
         </h2>
         
-        <p className="text-sm sm:text-base md:text-lg text-[#FFFFFF]/90 font-light max-w-xl mx-auto leading-relaxed">
+        <p className="text-base sm:text-lg md:text-xl font-[family-name:var(--font-crimson)] text-[#1A1A1A] font-light max-w-xl mx-auto leading-relaxed tracking-wide drop-shadow-sm px-4">
           Every moment, a treasured memory made eternal
         </p>
       </div>
@@ -116,15 +116,15 @@ export function Gallery() {
           <div className="max-w-6xl w-full">
             {isLoading ? (
               <div className="flex items-center justify-center h-64 sm:h-80 md:h-96">
-                <div className="w-12 h-12 border-[3px] border-[#C3A161]/30 border-t-[#C3A161] rounded-full animate-spin" />
+                <div className="w-12 h-12 border-[3px] border-[#C3A161]/40 border-t-[#C3A161] rounded-full animate-spin" />
               </div>
             ) : (
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 sm:gap-4 md:gap-5 lg:gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 sm:gap-5 md:gap-6 lg:gap-8">
                 {galleryItems.map((item, index) => (
                   <button
                     key={item.image + index}
                     type="button"
-                    className="group relative w-full overflow-hidden rounded-lg sm:rounded-xl bg-white/5 backdrop-blur-sm border border-[#C3A161]/20 shadow-lg hover:shadow-xl hover:border-[#C3A161]/40 transition-all duration-300"
+                    className="group relative w-full overflow-hidden rounded-lg sm:rounded-xl bg-white/50 backdrop-blur-sm border border-[#C3A161]/30 shadow-md hover:shadow-xl hover:border-[#C3A161]/50 transition-all duration-300"
                     onClick={() => {
                       setSelectedImage(item)
                       setCurrentIndex(index)
@@ -132,9 +132,9 @@ export function Gallery() {
                     aria-label={`Open image ${index + 1}`}
                   >
                     {/* Subtle glow on hover */}
-                    <div className="absolute -inset-0.5 bg-gradient-to-br from-[#C3A161]/20 to-[#751A2C]/10 rounded-lg sm:rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-sm" />
+                    <div className="absolute -inset-0.5 bg-gradient-to-br from-[#C3A161]/20 to-[#C3A161]/5 rounded-lg sm:rounded-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300 blur-sm" />
                     
-                    <div className="relative aspect-[3/4] md:aspect-square overflow-hidden">
+                    <div className="relative aspect-square overflow-hidden">
                       <img
                         src={item.image}
                         alt={item.text || `Gallery image ${index + 1}`}
@@ -144,11 +144,11 @@ export function Gallery() {
                         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                       />
                       {/* Gradient overlay on hover */}
-                      <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                      <div className="absolute inset-0 bg-gradient-to-t from-black/40 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                     </div>
                     
                     {/* Image counter badge */}
-                    <div className="absolute top-2 right-2 bg-black/40 backdrop-blur-sm rounded-full px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <div className="absolute top-2 right-2 bg-black/50 backdrop-blur-sm rounded-full px-2 py-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                       <span className="text-xs font-medium text-white">
                         {index + 1}/{galleryItems.length}
                       </span>
